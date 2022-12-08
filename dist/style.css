@@ -3,8 +3,13 @@
 body {
   background-color: antiquewhite;
   font-family: 'Lato', sans-serif;
-  display: grid;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -20,6 +25,7 @@ h1 {
 }
 
 p {
+  padding-top: 50px;
   text-align: center;
 }
 

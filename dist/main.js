@@ -1,1 +1,1 @@
-console.log("Dawg");
+(()=>{"use strict";!function(){const e=document.getElementById("content"),t=document.createElement("h1");t.textContent="Basic Restaurant Page",e.append(t);const n=document.createElement("img");n.src="../dist/pictures/restourant.jpg",e.append(n);const a=document.createElement("p");a.textContent="This restaurant was open in 2015 and it's focused on italian exquisitefood and drinks. We have all sorts of original italian pastas, pizzas, wine, cheeses and of course ice creams!",e.append(a)}()})();
