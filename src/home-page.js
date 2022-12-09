@@ -1,12 +1,16 @@
-export function makePage() {
+import restourantImage from "./assets/restourant.jpg"
+
+export function homePage() {
   const content = document.getElementById("content")
 
+  content.replaceChildren();
+ 
   const header = document.createElement("h1");
   header.textContent = "Basic Restaurant Page";
   content.append(header);
 
   const image = document.createElement("img");
-  image.src = "../dist/pictures/restourant.jpg";
+  image.src = restourantImage;
   content.append(image);
 
   const paragraf = document.createElement("p");
